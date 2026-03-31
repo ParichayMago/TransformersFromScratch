@@ -1,0 +1,23 @@
+vocab_size: total number of the tokens
+hidden_size: length of the vector 
+heads: hidden_size % head = 0
+
+layers: encoder * times
+
+
+
+BERT: Pre-training and Fine-Tuning
+
+BERT: multi layer, bidirectional transformer encoder 
+
+
+WordPice used as embeddings (words -> sub words not vecotrs)
+wordPice has 30k 
+
+
+BERT train these using Masked Language Modeling, Next sentence prediction
+
+similarity emerges via training, they init random at first 
+
+
+

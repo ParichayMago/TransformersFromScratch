@@ -1,0 +1,18 @@
+certain inputs have more weigthage than other inputs when predicting next token
+
+self attention calculates the scores of the prev tokens to determine the ammount of attention to give to give when predicting next token.
+\
+
+okay so the context weights is calculated by summing the x(i) dim and all other dim.
+for ex: "this is the first step"
+
+2nd word: "is" context vector -> sum(this * is + is * is + the * is .....)
+
+we calculate attention score via dot product
+
+q2 = x2
+w21 => x1*q2.t 
+w22 => x2*q2.t
+w23 => x3*q2.t
+
+

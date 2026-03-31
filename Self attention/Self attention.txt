@@ -1,0 +1,54 @@
+Self attention
+
+imporant req -> words to numbers
+
+words -> vectorization
+- one hot encoding
+[total words...] -> [0, 1, 0, 0]... 5 to crate 5 words 
+
+- bag of words
+
+and some other ideas to convert words into numbers but everything changed when "word embeddings" came into play
+
+
+word embeddings adv
+- captures semantic meaning, captures the context of the word
+
+
+each word -> n-dim vector
+
+similar words, similar vector
+
+eg. 5-dim vector 
+each word vector size is 5
+hence 5 values
+kind and queen points will be closer to the 5 dim plane as they are closly related 
+
+kind - Man ~ Queen
+
+
+vector embeddings are static, while it should be contextual
+
+for ex-> apple is a fruit but also a phone comany 
+
+"apple launches a new phone while i was eating an apple"
+
+if apple word embeddings have been trained on a lot of fruit sentence context, automatically the fruit component in the word embedding will be more, but in the above sentence we are using it in the phone compnay respect. So we want a system which can determine what kind of apple are we talking about just by looking at the sentence and that model should not be confused even if a fruit has been mentioned in that sentence. Just like above "orange"
+
+when trraining word embeddings it captures the avg meaning of the word which is static and dosent change, this dosent work for us.
+
+
+Introducing Self attention
+
+
+
+
+
+
+
+
+
+
+
+
+

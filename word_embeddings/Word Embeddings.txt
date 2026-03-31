@@ -1,0 +1,20 @@
+Word embeddings -> words to vectors
+
+
+
+Words -> Tokens
+
+
+
+Continuous bag of words 
+I love deep learning
+
+target: deep
+context: [love, learning] | CW size: 1
+
+love -> vector (one hot encoding vector)
+learning -> vector (one hot encoding vector)
+
+embedding matrix: W e R^(V, D)
+
+x @ W

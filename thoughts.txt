@@ -1,0 +1,36 @@
+two input samples -> each with 6 tokens
+
+each token -> 768 dim
+1 input -> 6 tokens -> 6 rows of 768 cols
+
+
+transformer block applies self attention to produce an output of similar size 
+
+okay so it produces 768?
+
+
+out_head (768, vocab_size) ->out token
+
+
+sooo what we know
+
+input -> "hello world how are"
+
+input is breaken down into tokens
+
+tokens -> "he, llo, wor, ld, how, are"
+no. tokens -> 6 
+
+dim -> each token is converted into multi dim word embeddings
+and position enc is added into them
+
+Transformer block starts from here -> 
+
+we calculate context vector of each token using multi head self attention
+
+
+
+
+
+
+
